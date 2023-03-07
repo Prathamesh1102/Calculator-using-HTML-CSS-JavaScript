@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Heading{
+    text-align: center;
+    /* text-size-adjust: 145px; */
+}
+.container{
+    display: flex;
+    background-color: violet;
+}
+.ms-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    
+}
+.row{
+    text-align: center;
+    
+}
