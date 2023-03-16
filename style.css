@@ -3,119 +3,35 @@
     padding: 0;
 }
 .Heading{
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
-.container{
+.input{
+    display: flex;
+    text-align: center;
+}
+.container2{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
+    text-align: center;
 
-    top: 55%;
-    left: 100%;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: ;
     margin: auto;
     padding: 20px;
-    height: 450px;
-    height: 500px;
+    height: 100px;
 
-
-    justify-items: center;
-    align-items: center;
-}
-/* .button{
-    background-color: aqua;
-    align-items: center;
     justify-content: center;
+}
+.button{
+    display: inline-block;
+    background-color: aqua;
     border: 2px solid lightskyblue;
     border-radius: 4px;
     height: 40px;
     width: 30px;
     margin: 2px;
-} */
-.item-c{
-    justify-content: center;
-    grid-column-end: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.Heading{
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
+.button .item-+{
+    padding: 100px;
 }
-.container{
-    display: flex;
-    display: inline-block;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
-.input{
-    height: 20px;
-    width: 160px;
-    padding-left: 10px;
-    padding-bottom: 2px;
-    padding: 0.3.rem;
-    margin-bottom: 8px;
-    margin-top: 2px;
-    border-radius: 5px;
-    border: 2px solid darkturquoise;
-    border-style:double;
-}
-.ms-auto{
-    margin: auto;
-}
-.button{
-    width: 36px;
-    border: 2px solid lightskyblue;
-    border-radius: 10px;
-    background-color: #FFE5B4;
-    pointer-events: visibleFill;
-}.flex{
-    display: flex;
-    align-items: center;
-}
-.flex flex-col{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.row{
-    text-align: center;
-    justify-content: center;
-}
-.equal-size{
-    height: 50px;
-    width: 40px;
-}
-.diff_size{
-    height: 100px;
-    width: 40px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-.diff_size0{
-    height: 50px;
-    width: 80px;
-    justify-content: flex-start;
-}
-.top-mar{
-    margin-left: 0px;
-    margin-top: px;
-    justify-content: flex-start;
-} */
