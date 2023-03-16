@@ -4,10 +4,11 @@
 }
 .Heading{
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 20px;
 }
-.input{
+#input{
+    margin: auto;
+    padding: auto;
     display: flex;
     text-align: center;
 }
@@ -16,8 +17,7 @@
     text-align: center;
 
     grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: ;
-    margin: auto;
+    grid-template-rows:  ;
     padding: 20px;
     height: 100px;
 
