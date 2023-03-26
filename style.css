@@ -11,17 +11,34 @@
     padding: auto;
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 .container2{
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
     display: grid;
+    grid-gap: 20px;
+
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+
+}
+
+
+/* .container2{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
     text-align: center;
 
     grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows:  ;
-    padding: 20px;
-    height: 100px;
+    grid-template-rows: repeat(5, 100px) ;
 
-    justify-content: center;
+    background-color: lightsalmon;
+
 }
 .button{
     display: inline-block;
@@ -32,6 +49,6 @@
     width: 30px;
     margin: 2px;
 }
-.button .item-+{
-    padding: 100px;
-}
+.item-c{
+    height: 80px;
+} */
